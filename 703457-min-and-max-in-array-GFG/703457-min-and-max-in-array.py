@@ -6,8 +6,7 @@ class Solution:
         for i in range(len(arr)):
             if arr[i]>max:
                 max=arr[i]
-        for i in range(len(arr)):
-            if arr[i]<min:
+            elif arr[i]<min:
                 min=arr[i]
         return [min,max]
 
